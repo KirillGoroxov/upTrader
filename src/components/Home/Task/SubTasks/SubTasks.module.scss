@@ -1,0 +1,37 @@
+.subtasks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  textarea {
+    border: 1px solid #848484;
+    margin: 5px;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button {
+    background-color: #a27b7b;
+    padding: 4px 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #222;
+    font-weight: 300;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .task {
+    border: 1px solid #a27b7b;
+    width: 95%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    span {
+      margin: 0 0 1px 5px;
+    }
+  }
+}

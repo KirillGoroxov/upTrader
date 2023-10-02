@@ -1,0 +1,23 @@
+.priority {
+  font-size: 12px;
+  position: relative;
+  width: 12px;
+  cursor: pointer;
+  background-color: transparent;
+  :first-child {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    margin-right: 6px;
+    padding: 5px;
+  }
+  .level {
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 3px;
+    top: 17px;
+    right: 0;
+  }
+}
